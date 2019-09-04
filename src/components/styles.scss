@@ -1,0 +1,69 @@
+.header{
+  text-align: center;
+}
+
+.header a{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.brief-item h2{
+  font-size: 1rem;
+}
+.brief-item p{
+  font-size: 0.5rem;
+}
+
+.brief-item{
+  padding: 1rem;
+}
+
+.brief-bar {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.left-col{
+  display:inline-block;
+  width:80%;
+  margin:0;
+  margin: auto;
+  float:left;
+  border: 1px solid red;
+}
+.right-col{
+  display:inline-block;
+  width:20%;
+  margin:0;
+  float:right;
+  border: 1px solid purple;
+}
+.article{
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 1rem;
+  border: 1px solid red;
+}
+
+.article-left{
+  display: inline;
+  width: 20%;
+  float: left;
+  margin:0;
+
+}
+.article-right{
+  display: inline;
+  float:right;
+  margin: 0;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .article img{
+    height: 150px;
+    width: 250px;
+  }
+}
